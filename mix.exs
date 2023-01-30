@@ -70,6 +70,7 @@ defmodule PhoenixGuardian.Mixfile do
      {:ueberauth_slack, "~>0.2.0"},
      {:ueberauth_google, "~> 0.2"},
      {:ueberauth_facebook, "~> 0.3.2"},
+     {:credo, "~> 1.7.0-rc.1", only: [:dev, :test], runtime: false},
      {:comeonin, "~> 2.4"},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"}]
